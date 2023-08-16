@@ -1,0 +1,250 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Android';
+    src: url(fontes/idroid.otf);
+}
+
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0px;
+    background-image: linear-gradient(to bottom, rgb(40, 243, 40), rgb(12, 95, 1));
+    color: rgb(227, 236, 243);
+    font-weight: bolder;
+    font-size: 20px;
+
+
+}
+
+h1{
+    padding: 10px;
+    margin: 0;
+    padding: 15px;
+    color: rgb(227, 236, 243);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.295);
+    font-size: 35px;
+}
+
+body{
+    margin: 0;
+    background-color: rgb(85, 240, 175);
+}
+
+header > p {
+    margin: 0;
+    padding: 10px;
+
+}
+
+nav{
+    text-align: left;
+    font-size: 15px;
+}
+
+
+nav  > a{
+    color: aliceblue;
+    font-weight: bold;
+    margin-right: 20px;
+
+}
+
+nav > a:hover{
+    text-decoration: dashed;
+    background-color: rgb(12, 192, 132);
+    color: green;
+    border-radius: 5px;
+    
+}
+
+#Base{
+    font-family: 'Android';
+    text-align: center;
+    background-color: aliceblue;
+    margin: auto;
+    padding: 50px auto 50px auto;
+    align-items: center;
+    width: 45%;
+    border: 1px solid;
+
+}
+
+#History{
+    color: green;
+    font-size: 25px;
+    text-align: initial;
+
+}
+
+#Bot{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+#Bot > p{
+    text-align: center;
+    text-indent: 15px;
+    padding: 0px 10px 0px 10px;
+
+}
+
+
+strong{
+    color: rgb(1, 180, 55);
+}
+
+#One{
+    text-align: initial;
+    padding: 0px 15px 0px 15px;
+    color: green;
+}
+
+#Version{
+    margin: 0px;
+    background-image: linear-gradient(to right, rgb(125, 255, 125) ,rgba(175, 255, 186, 0.514));
+
+}
+
+#One > p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: left;
+    text-indent: 10px;
+    padding:0px 15px 0px 15px; 
+}    
+
+
+#Dan{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:0px 15px 0px 15px;
+}
+
+#Two{
+    padding: 0px 15px 0px 15px;
+}
+
+#Masc{
+    color: green;
+    padding: 0px 15px 0px 15px;
+    text-align: initial;
+    background-image: linear-gradient(to right, rgb(125, 255, 125) ,rgba(175, 255, 186, 0.514));
+}
+   
+#New{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: black;
+}
+
+.img{
+    width: 50%;
+}
+
+.Irina{
+    width: 100%;
+}
+
+#ideia{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: black;
+}
+
+.Break{
+    width: 50%;
+
+}
+
+#Bugdroid{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: black;
+}
+
+#Three{
+    border: 15px solid green;
+    background-color: green;
+}
+
+.video{
+    width: 90%;
+
+}
+
+#four{
+    padding: 0px 20px 0px 20px;
+}
+
+#P4 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 95, 8);
+    text-align: left;   
+    font-size: 15px; 
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 15px auto auto auto;
+}
+
+#p5 {
+    margin: 0px;
+}
+
+#List{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: rgba(173, 252, 173, 0.699);
+    border-radius: 5px;
+}
+
+nav{
+    text-align: initial;
+
+}
+
+
+a{
+    color: black;
+}
+
+div{
+    text-align: initial;
+
+}
+
+#Q{
+    text-align: center;
+    padding: 10px;
+
+
+}
+
+#Link{
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#last{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+footer{
+    margin: auto;
+    padding: 10px;
+    background-color: green;
+    text-align: center;
+    color: aliceblue;
+    font-size: 15px;
+}
+
+footer > strong{
+    color: aliceblue;
+    font-size: 20px;
+}
+
