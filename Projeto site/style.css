@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to left, gray, yellow);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cardgreen{
+    border: 10px solid black;
+    width: 150px;
+    height: 250px;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 600px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.cardblue{
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 600px;
+}

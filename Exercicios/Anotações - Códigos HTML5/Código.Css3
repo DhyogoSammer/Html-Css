@@ -1,0 +1,194 @@
+Cores 
+
+Cores Primárias : Amarelo, Vermelho e o Azul 
+Cores Secundárias : Laranja, Violeta e o Verde 
+Cores Terciárias : Amarelo-esverdeado,Amarelo-alaranjado,Vermelho-alaranjado, Vermelho-arroxeado, Azul-arroxeado e Azul-esverdeado.
+Cores Frias : Violeta, Azul e Verde
+Cores quentes : Vermelho, Amarelo e o Laranja
+Cores complementares/Que tem maior contraste um com a outra : Azul e Laranja ; Amarelo e Violeta; Vermelho e Verde ;...
+Cores Análogas : Aquelas encontradas uma ao lado da outra no círculo cromático.
+Cores Análogas Relacionadas : Aquelas encontradas uma ao lado da outra, mas na 3 cor pula uma vizinha, para formar um contraste 
+Cores intercaladas : Quando se pega cores com espaço entre cada
+Cores triádicas : Quando se pega cores e pula 3 cores de cada vez.
+Cores em quadrado : Quando se pega cores e pula 2 cores de cada vez.
+Cores tetrádicas : Quando se pega o oposto de 2 cores diferentes, formando 4 cores.
+Monocromia : Uso de apenas uma cor no trabalho
+
+Conceitos de CSS3
+Main = Div especial que indica que o conteúdo é o principal.
+widht = Largura da caixa
+padding = Espaço lateral do texto dentro da caixa 
+margin = Margem do texto(auto, 3px...)
+height = Altura da caixa
+text-align = Alinhamento do texto (center,end,justify)
+border-radius = Cantos da caixa arredondados 
+box-shadow = Sombra da caixa
+text-shadow = Sombra da texto
+- Parâmetros = tam da sombra p lado/tam da sombra p baixo/,espalhamento,cor
+Ex : box-shadow : 5px 5px 15px , green
+Tamanho da fonte
+Medidas Absolutas = cm, mm, in(polegadas), px(pixel), pt(ponto) e pc(paica).
+Medidas Relativas = em (relativo ao tamanho natural da fonte), ex (relativo ao tamanho da altura x de uma fonte), rem(tipo em, mas relativo a fonte configurada no body), vw(relativo a largura da view port(tela do monitor)), vh,(altura da view port) e %.
+16 px geralmente é = 1em(Tamanho natural da fonte)
+#Usar sempre px e em.
+font-weight = Peso da fonte, ligther (Mais magra), normal(normal), bolder(negrito),boldeer(muito negrito).
+Peso com números = começa em 100 e vai até 900.
+font-size = Tamanho da fonte.
+font-style = Se quer em itálico ou normal.
+text-decoration = underline (Vai deixar a fonte sublinhada).
+Compactação da fonte = font
+1 - font-style, 2- font-weight, 3- font-size e 4- font-family.
+Primeiro botar a font-style, depois a font-weight, a font-size e por último a font-family.
+font-indent : Adiciona um espaço no paragráfo.
+id em html = é usado para selecionar algo e dar identificação.
+id em HTML = # em CSS3
+class em HTML = . em CSS3
+id só pode ser usado uma vez e o class pode usar multipla vezes.
+: = representa uma pseudoclasse.
+border = Representa uma borda.
+ex : border : 1px solid black;(shorthand)
+div = Espaço qualquer
+ Representadas por: active :checked	:enabled :disabled: corner-present	
+:empty :end :first :hover :double-button.
+:hover = Quando você passa o mouse acontece algo.
+div > p = paragráfo que está dentro da div.
+div > p {display : none} = Deixa o texto do paragrafo invisivel.
+div:hover > p {display : block} = Deixa o texto do paragrafo invisivel, so vai aparecere se passar o mouse por cima, útil para criar menus.
+display : inline-block = Tudo na mesma linha.
+:: = representa os pseudoelementos.
+:: visited = diz que algo ja foi visitado, por exemplo um link.
+:: active = ao clicar em algo acontece uma animação.
+:: before = antes de algo acontece algo.
+:: after = depois de algo acontece algo.
+Modelos de Caixa 
+Toda caixa possui um tamanho que pode ser definido em altura = height e largura = width 
+Borda = Uma linha que circunda o conteúdo.
+Padding = Serve para adicionar um espaço entre a parte do conteúdo e a borda, mantendo a borda sempre distante do conteúdo.
+Margin = Espaçamento externo logo após a borda.
+Outline/Tracejado = dentro da margin pode-se criar um tracejado chamado de outline.
+Sendo assim, ainda referente à anatomia das caixas, todo elemento e consequentemente toda caixa, tem a " Parte de Conteúdo ", tem uma " Borda ", dessa borda para dentro, temos o " Padding ", da borda para fora temos o " Margin " e, ainda dentro do margin e fora da borda, temos a área do " Outline ".
+
+Tipos de Caixa
+Caixa Box-Level = o elemento sempre irá se iniciar em uma nova linha, trata-se de uma caixa isolada e independetes.
+ex : <div> <p> <main> <video> <h1 até o h6> ...
+Caixa Inline-Level = O elemento da caixa vai continuar do lado e não na outra linha. ex : <span> <a> <code> <strong> <em>
+Propriedades margin : 
+As principais Propriedades de Estilo para margin são: " margin-top " (margin da parte de cima de um elemento), " margin-right " (parte direita), " margin-bottom " (parte de baixo) e " margin-left " (parte esquerda) - O valor dessas propriedades geralmente é inserido em px.
+
+Nota: Para centralizar um elemento (CAIXA) na tela, de forma automática , devemos usar a Propriedade de Estilo " margin " com o valor " auto ". Isso fará com que elementos (caixas) sejam centralizados horizontalmente de forma automática, mesmo que o tamanho da tela mude.
+
+Como no "padding", também existe um SENTIDO/ORDEM correta PARA INSERIR as propriedades de margin descritas logo acima. A "direção" correta é: 
+
+1) - Top  
+2) - Right  
+3) - Bottom 
+4) - left
+
+Exemplo:
+
+margin-top: 10px;
+margin-right: 10px;
+margin-bottom: 10px;
+margin-left: 10px;
+
+É importante declarar nessa ordem, pois é necessário ser condizente com a direção e sentido padrão do Modelo de Caixas do DevTools , que segue a direção de um ponteiro de relógio.
+
+Também podemos utilizar uma Shorthand para inserir e simplificar todas essas declarações de margin em uma única linha, exemplo: " margin: 15px 10px 10px 15px; "
+
+OBSERVAÇÃO: Mesmo em shorthands como a do exemplo acima, os valores devem ser declarados na ordem orientada ( top, right, bottom e left ), para que consigamos nos nortear e especificar corretamente o espaçamento certo o para respectivo lado/sentido.
+
+Se quisermos configurar os quatro lados do margin de uma só vez e constituir um margin igualitário (mesmo valor nos quatro lados), podemos simplesmente inserir uma única vez a Propriedade "margin" com o valor em px desejado, esse valor será inserido nos quatro lados do elemento automaticamente , exemplo: " margin: 10px; "
+
+IMPORTANTE : Se quisermos centralizar um elemento (CAIXA) de forma automática, mas ainda assim , alterar o margin do sentido de cima (top) ou de baixo (bottom), devemos inserir a seguinte declaração shorthand: " margin: 10px auto 10px auto; " 
+
+Também podemos colocar só dois valores em uma propriedade margin, exemplo: " margin: 10px 20px; " - Quando colocamos somente dois valores, significa que os sentidos de CIMA E DE BAIXO são representados pelo primeiro valor e os sentidos de ESQUERDA E DIREITA são representados pelo segundo valor .
+
+PROPRIEDADES - OUTLINE: As principais Propriedades de Estilo para outline são: " outline-width " (espessura da outline), " outline-style " (estilo da outline) e " outline-color " (cor da outline).
+
+Os valores mais utilizados para a Propriedade de Estilo que define o estilo de uma outline (outline-style), são: " solid " (linha sólida), " dashed " (outline tracejada), " dotted " (outline pontilhada), " double " (linha dupla) e o " groove " (outline "3d")
+
+Sendo que podemos utilizar uma shorthand para inserir e simplificar todas essas declarações de outline em uma única linha, exemplo: " outline: 10px solid black; " (Siga a ordem de inserção de valores do exemplo na hora de usar uma shorthand, caso contrário não funcionará corretamente)
+
+#SHORTHANDS 
+
+Border : border-width, border-style e border-color(nessa sequência)
+ex : 10px solid e black
+
+Padding : padding-top, padding-right, padding-bottom e padding-left.(nessa sequência).
+ex : 10 px 10 px 10 px 10 px
+*Se forem iguais : precisa botar só a primeira : 10px que serve para a outras.
+*Se colocar dois valores, por exemplo, padding : 10px 20 px, vai ser 10px para o de cima e o de baixo e 20px para esquerda e direita.
+
+Margin : margin-top, margin-right, margin-bottom e margin-left.(Nessa sequência).
+ex : 10px 20px 10px 10px
+*Mesmo esquema das outras anteriores
+margin = auto = Coloca a caixa no centro da págin.
+
+Outline : outline-widht, outline-style e outline-color.
+ex : 5px dashed e salmon.
+
+Tags Não semânticas :
+div, span, inline, block
+
+Tags com valor semântico :
+Header = Cabeçalho
+Nav = Para menus, links, navegação
+Main = Conteúdo principal
+Section = Seção
+Article = Artigo
+Aside = Periférico ao Artigo(Escritor/Autor)
+Footer = rodapé
+
+Sombras 
+box-shadow : Deslocamento horizontal, deslocamento vertical, sombreamento e cor da sombra.
+ex : 1px 1px 1px black, utilizar cor black transparente.
+Root = Serve para criar variáveis no css.
+
+MACETE DE QUANDO USAR O > :
+Quando devemos usar o sinal de maior ( " > " ) para manipular elementos que estão dentro de outros elementos (filho/children)? Talvez alguns de vocês estejam na dúvida, porque tem vezes que o Guanabara usa o sinal, e outras não... E às vezes, quando inserimos o sinal nos nossos seletores, as declarações simplesmente não tem efeito...
+
+ESCLARECENDO:
+
+Nesse caso, você precisa lembrar dos conceitos de COMBINADORES DE SELETORES, que nada mais é do que criar uma relação útil entre os seletores. 
+
+Você usa o " > " quando quer indicar que deseja estilizar um FILHO DIRETO de um elemento. Segue um exemplo:
+
+<header>
+	<h1></h1>
+	<p></p>
+</header>
+
+No caso do exemplo acima, o "p" é um filho direto da div especial <header>, e portanto é um elemento de Primeiro Nível. Da mesma forma, veja que o "h1" identicamente é um filho direto de header e portanto é um elemento de Primeiro Nível também. É como se <p> e <h1> fossem IRMÃOS. 
+
+Mas quando você NÃO USA o " > ", você  quer indicar os elementos que não são necessariamente filhos, mas são DESCENDENTES. Veja outro exemplo: 
+
+<main>
+	<article>
+		<h1></h1>
+	</article>
+</main>
+
+SELETOR NÃO SIMPLIFICADO PARA O EXEMPLO ACIMA: " main > article > h1 {...} ". H1 é filho direto de article, que é filho direto de main. 
+
+Tem como simplificar? Sim. Nesse caso, perceba que h1 é descendente de main (como se fosse um NETO ), então você pode DEIXAR DE USAR o " > " sem problema nenhum, dessa forma estará indicando elementos que não são necessariamente filhos, e sim descendentes. Exemplo: 
+
+MESMO SELETOR ANTERIOR, SÓ QUE SIMPLIFICADO: " main h1 {...} "
+
+Obs.: Se tivéssemos criado o seletor simplificado do exemplo acima, mas com o sinal " > " ( ex: main > h1 {...} ), não funcionaria porque esse h1 NÃO É FILHO DIRETO do main, e sim neto. Sendo que o sinal de maior ( ">" ) serve apenas para indicar filhos diretos.
+
+É por isso que o Guanabara não usa o sinal de maior (>) às vezes, ele está simplificando o seletor (quando possível).
+
+Isso facilita muito, porque você não precisará de uma pancada de classes e deixa o seu código mais limpo.
+
+Transistion-duration = Duração do tempo quando passa o mouse por cima.
+line-height: Altura da linha
+List-style-position : Posição da lista
+Columns = Serve para dividir as listas em quantas vezes quiser.
+Margin = Negativa, cresce para fora da caixa.
+
+
+
+
+
+
+

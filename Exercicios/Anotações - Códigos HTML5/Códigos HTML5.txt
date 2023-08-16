@@ -1,0 +1,48 @@
+! = É o primeiro passo para montar a estrutura do site
+Em lang = colocar a tradução = pt-br
+Em title = Colocar o Titulo do assunto que vai aparecer na barrinha do site 
+Em cima de títutlo colocar o Favicon = O ícone do site = Digitar link:favicon, logo em seguida apertar Ctrl + Space e selecionar o ícone.
+h1 = Serve para colocar o título do site principal
+Ordem de nível = h1>h2>h3>h4>h5>h6 : Vai até o nível 6
+p = paragrafo
+Mark = marca texto 
+strong = Colocar a palavra selecionada em negrito
+em = colocar a palavra selecionada em itálico
+Símbolos = &delta; por exemplo 
+Emojis = &#x + Código da emojipedia
+Imagens = img + Ctrl Space para selecionar a imagem
+abbr = Coloca um significado na palavra, Por exemplo HTML (HyperText Markup Language)
+br = Quebra um paragrafo
+ins = Texto sublinhado 
+del = Texto riscado / Deletado
+sup = Coloca a palavra para cima : Por exemplo x3 
+sub = Coloca a palavra para baixo 
+big = Palavra grande : OBS : Já está caindo em desuso
+small = Palavras pequenas
+code = Coloca as palavras com a mesma largura e espaço entre cada letra
+pre code = Organiza a palavra igual ta no vscode
+q = Coloca a palavra entre aspas
+blockquote = Serve para colocar a referência da citação
+ol = Listas ordenadas = colocar type = Para escolher A,a,I, i ou o padrão que é 1.
+li = Listas 
+ul = Listas não ordenadas = Colocar type = Para escolher Circle, Square ou o padrão que é disc.
+dl = Usado para listar uma lista de definição
+dt = Usado para mostrar o termo
+dd = Usado para descrever o termo
+a = âncora, serve para colocar links externos
+target = Depois do link colocar target =_blank 
+rel = E logo em seguida colocar rel=external
+Esses dois vão fazer com que o link seja aberto em outra guia sem fechar a guia do seu site 
+./ = Signifca que o arquivo está na mesma pastaa
+../ = Signifca que o arquivo está na pasta anterior
+rel = next = Para link da página seguinte
+rel = prev = Para link da página anterior
+rel = nofollow = Para links que você não da aval para a página
+target = self = Indica que o link vai ser aberto na mesma guia
+&lt; = significa < 
+&gt; = signifca >
+id = Usado para selecionar algo e identificar.
+Tab = Serve para desclocar o texto do html5 para a direita.
+Shift + Tab = Serve para deslocar o texto do html5 para a esquerda.
+*{} = Seleciona todas as tags do html e pode fazer alteração nelas.
+
