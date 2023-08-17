@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+body{
+    background-image: url('imagens/alotau-papua-new-guinea-png-canoe.jpg');
+}
+
 div.quadrado{
     display: inline-block;
     border: 2px solid black;
@@ -18,5 +22,5 @@ div#q2 {
 }
 
 div#q3 {
-    background-image: url('imagens/._pattern004.png');
+    background-image: url('imagens/pexels-ashutosh-varma-11539627.jpg');
 }
