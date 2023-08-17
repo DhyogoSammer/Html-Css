@@ -186,6 +186,33 @@ List-style-position : Posição da lista
 Columns = Serve para dividir as listas em quantas vezes quiser.
 Margin = Negativa, cresce para fora da caixa.
 
+Mudando o tamanho da imagem de fundo do site
+
+background-size: 100%  100% -> preenche a tela, mas achata e distorce a imagem
+countain; -> a imagem é 100% exibida, com lateral vazias as vezes
+cover;	-> cobre a tela toda mesmo que tenha que cortar a imagem
+background-attachament : fixed = a imagem fica fixa na tela.
+background-attachament : scroll = a imagem rola junto da tela.
+
+Para posicionar uma caixa ao centro de uma tela
+#1 Crie duas div = uma section e dentro da section um article
+#2 Na Section colocar id = container e no article colocar id = conteudo.
+#3 Para centralizar a caixa do conteudo colocar :
+1 - A posição do container relative.
+2 - A posição do conteudo absolute, depois colocar 50% em top e left, e transform (-50%, -50%), para o conteudo centralizar ao meio.
+
+Existe um jeito muito mais fácil de alinhar items, com apenas três linhas, e eu não tô falando isso em tom de crítica, pelo contrário, é sempre bom saber mais de um modo de resolver um problema. Então lá vai:
+
+#container {
+display: flex; /*Possui diversas funções (procurem pela documentação), uma delas é habilitar o manejamento do conteúdo*/
+justify-content: center; /*Alinhamento horizontal, ou seja, dispensa o "margin: auto"*/
+align-items: center; /*Alinhamento vertical*/
+}
+
+Essas propriedades sempre são colocadas no elemento-pai (container), não se esqueçam desse importante detalhe.
+
+
+
 
 
 

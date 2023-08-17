@@ -7,11 +7,18 @@ body{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+   
+    /* Shorthands - background
+       color > image > position > repeat > [size] > attachment
+    */
+    background: black url('imagens/alotau-papua-new-guinea-png-canoe.jpg') center center no-repeat fixed;
+    background-size: cover;
 }
 
 main{
     background-color: white;
-    width: 400px;
+    max-width: 400px;
     padding: 10px;
     margin: auto;
     border: 1px solid darkblue;
