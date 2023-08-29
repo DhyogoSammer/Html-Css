@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+h1{
+    color: red;
+}
+
+/* Sintaxe */
+
+@media screen and (max-width: 500px){
+/* MAX-WIDTH = TELAS MENORES QUE ALGUMA RESOLUÇÃO */
+h1 {
+    color: blue;
+}    
+
+}
+
+/* Outros modos */
+/* screen, print, speech, all */
+
+@media print and (max-width: 400px) {
+    h1{
+        color:green;
+    }
+}
+
+/* Todos os modos */
+
+@media (max-width: 700px) {
+    h2 {
+        color: purple;
+    }
+}
+
+/* Mobile First */ 
+/* min-width > max-width, ou seja, utilizando primeiro o min-widht . */
+
+@media (min-width : 200px) {
+    h2{
+        color: salmon;
+    }
+}
+
+/*AND na media query */ 
+
+@media (min-width : 300px) and (max-width: 500px) {
+    h3{
+        font-size: 3em;
+    }
+}
+
+/* Orientation */
+
+@media (orientation : landscape){
+    h3{
+        color: brown;
+        font-size: 4em;
+    }
+}
+
+/* OR na media query */ 
+
+h4{
+    color: blue;
+}
+
+@media (max-width : 200px), (orientation : landscape){
+    h4 {
+        color: red;
+    }
+}
+
+/*Cuidado ao aplicar os Media Query */
+/* A ordem é importante */ 
+/*MQ São as ultimas regras */
+
+/* Breakpoint */
+
