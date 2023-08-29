@@ -45,12 +45,12 @@ id em HTML = # em CSS3
 class em HTML = . em CSS3
 id só pode ser usado uma vez e o class pode usar multipla vezes.
 : = representa uma pseudoclasse.
+Representadas por: active :checked	:enabled :disabled: corner-present	
+:empty :end :first :hover :double-button.
+:hover = Quando você passa o mouse acontece algo.
 border = Representa uma borda.
 ex : border : 1px solid black;(shorthand)
 div = Espaço qualquer
- Representadas por: active :checked	:enabled :disabled: corner-present	
-:empty :end :first :hover :double-button.
-:hover = Quando você passa o mouse acontece algo.
 div > p = paragráfo que está dentro da div.
 div > p {display : none} = Deixa o texto do paragrafo invisivel.
 div:hover > p {display : block} = Deixa o texto do paragrafo invisivel, so vai aparecere se passar o mouse por cima, útil para criar menus.
