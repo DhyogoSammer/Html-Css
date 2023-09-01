@@ -91,6 +91,7 @@ footer{
     bottom: 0;
     width: 100%;
     display: flex;
+    font-weight: bolder;
     align-items: center;
     justify-content: center;
     font-size: 1.5vw;
@@ -183,3 +184,227 @@ div#facebook{
     transform: translate(-50%, 8%);
 }
 
+@media (max-width : 600px){
+    #conteudo {
+        width: 100%;
+        font-size: 5vw;
+        position: absolute;
+        margin: auto;
+        transform: translate(-50%, -50%);
+        top: 70%;
+        left: 50%;
+    }
+
+    #conteudo > p {
+
+ 
+    }
+
+    #img { 
+        display: none;
+     
+    }
+
+
+    header a {
+        font-size: 4vw;
+    }
+
+
+    footer { 
+        font-size: 3vw;
+        font-weight: bolder;
+    }
+
+
+    div#facebook{
+        position: absolute;
+        top: 0%;
+        left: 80%;
+        transform: translate(-50%, 8%);
+    }
+
+    div#instagram{
+        position: absolute;
+        top: 0%;
+        left: 88%;
+        transform: translate(-50%, 8%);
+    
+    }
+
+    
+    div#linkedin{
+        position: absolute;
+        top: 0%;
+        left: 96%;
+        transform: translate(-50%, 8%);
+    
+    
+    }
+
+
+ 
+ 
+}
+
+@media (max-height : 922px) {
+    #conteudo {
+        width: 60%;
+        font-size: 5vw;
+        position: absolute;
+        margin: auto;
+        transform: translate(-50%, -50%);
+        top: 80%;
+        left: 50%;
+    }
+
+
+}
+
+@media (max-height : 420px) {
+    #conteudo {
+        width: 50%;
+        font-size: 3.5vw;
+        position: absolute;
+        margin: auto;
+        transform: translate(-50%, -50%);
+        top: 70%;
+        left: 50%;
+    }
+
+    footer {
+        font-size: 2.5vw;
+        height: 2rem;
+        font-weight: bolder;
+    }
+
+    div#facebook{
+        position: absolute;
+        top: 0%;
+        left: 80%;
+        transform: translate(-50%, -6%);
+    }
+
+    div#instagram{
+        position: absolute;
+        top: 0%;
+        left: 88%;
+        transform: translate(-50%, -6%);
+    
+    }
+
+    div#linkedin{
+        position: absolute;
+        top: 0%;
+        left: 96%;
+        transform: translate(-50%, -6%);
+    
+    
+    }
+
+}
+
+@media (max-height : 280px) {
+    #conteudo {
+        width: 50%;
+        font-size: 3vw;
+        position: absolute;
+        margin: auto;
+        transform: translate(-50%, -50%);
+        top: 60%;
+        left: 50%;
+    }
+
+    footer {
+        font-size: 3vw;
+        height: 2rem;
+        font-weight: bolder;
+    }
+
+    div#facebook{
+        position: absolute;
+        top: 0%;
+        left: 80%;
+        transform: translate(-50%, 0%);
+    }
+
+    div#instagram{
+        position: absolute;
+        top: 0%;
+        left: 88%;
+        transform: translate(-50%, 0%);
+    
+    }
+
+    
+    div#linkedin{
+        position: absolute;
+        top: 0%;
+        left: 96%;
+        transform: translate(-50%, 0%);
+    
+    
+    }
+ 
+
+
+}
+
+@media (min-width : 600px) and (max-width : 768px) {
+    #conteudo {
+        width: 100%;
+        font-size: 5vw;
+        position: absolute;
+        margin: auto;
+        transform: translate(-50%, -50%);
+        top: 70%;
+        left: 50%;
+    }
+
+    #img {
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        
+        
+    }
+
+    footer { 
+        font-size: 3vw;
+        font-weight: bolder;
+    }
+    
+
+}
+
+
+div#facebook{
+    position: absolute;
+    top: 0%;
+    left: 80%;
+    transform: translate(-50%, 8%);
+}
+
+div#instagram{
+    position: absolute;
+    top: 0%;
+    left: 88%;
+    transform: translate(-50%, 8%);
+
+}
+
+
+div#linkedin{
+    position: absolute;
+    top: 0%;
+    left: 96%;
+    transform: translate(-50%, 8%);
+
+
+}
+
+header a {
+    font-size: 4vw;
+}
