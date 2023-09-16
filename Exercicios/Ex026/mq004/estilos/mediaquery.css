@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+/*Todas as demais midias */
+
+/* Typical Device Breakpoints
+Pequenas Telas : Até 600px
+Celular : de 600px até 768px
+Tablet : 768px até 992px
+Desktop : 992px até 1200px
+Grandes telas : acima de 1200px
+ */
+
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+@media print {
+    body {
+        background-image: url('../imagens/back-print.jpg');
+        /*Desnecessário */
+    }
+
+    main {
+        border: 2px solid black;
+    }
+
+    main h1 {
+        text-shadow: none;
+        color: black;
+    }
+
+    main::after {
+        content: 'Impressão feita por curso em video';
+        
+    }
+    
+    #phone {
+        display: none;
+    }
+    
+    #tablet {
+        display:none;
+    }
+    
+    #impressora {
+        display: block;
+    }
+    
+    #pc {
+        display: none;
+    }
+    
+    #tv {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width : 768px) and (max-width : 992px) {
+/*TABLETS */
+    body {
+        background-image: url('../imagens/back-tablet.jpg');
+    }
+
+    #phone {
+        display: none;
+    }
+    
+    #tablet {
+        display:block;
+    }
+    
+    #impressora {
+        display: none;
+    }
+    
+    #pc {
+        display: none;
+    }
+    
+    #tv {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+/* DESKTOPS NOTBOOKS */
+    body {
+        background-image: url('../imagens/back-pc.jpg');
+    }
+
+    
+    #phone {
+        display: none;
+    }
+    
+    #tablet {
+        display: none;
+    }
+    
+    #impressora {
+        display: none;
+    }
+    
+    #pc {
+        display: block;
+    }
+    
+    #tv {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+/* TELAS GRANDES */
+    body {
+        background-image: url('../imagens/back-tv.jpg');
+    }
+
+    main {
+        width: 700px;
+    }
+
+    #phone {
+        display: none;
+    }
+    
+    #tablet {
+        display: none;
+    }
+    
+    #impressora {
+        display: none;
+    }
+    
+    #pc {
+        display: none;
+    }
+    
+    #tv {
+        display: block;
+    }
+
+
+}
