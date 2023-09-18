@@ -21,51 +21,6 @@ body , html{
 
 }
 
-.nav-link text-danger{
-    color: black;
-}
-
-main {
-    border: 1px solid black;
-    background-color: white;
-    width: 50vw;
-    height: 50vh;
-    position: absolute;
-    transform: translate(0%, 0%);
-    top: 50%;
-    border-radius: 10px;
-}
-
-#Eua {
-    color: black;
-    font-size: 1.3rem;
-    text-align: center;
-    text-shadow: 1px 1px 0px rgb(0, 0, 0);
-
-}
-
-#Eua:hover {
-    transform: scale(1.1);
-}
-
-#ImgEua {
-    width: 100%;
-    height: 40%;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-
-
-#textEua {
-    font-size: 0.9rem;
-    padding: 5px;
-}
-
-#textEua:hover {
-    transform: translate(1%, 1%);
-}
-
-
 
 
 
@@ -79,27 +34,6 @@ main {
         width: 100vw;
     }
     
-    h1 {
-        text-align: center;
-        color: darkred;
-        text-shadow: 2px 1px 0px rgba(0, 0, 0, 0.541);
-        font-style: italic;
-        box-sizing: border-box;
-        border: 1px solid black;
-        background-color: rgba(255, 255, 255, 0.404);
-        padding: 10px;
-        border-radius: 10px;
-        display: inline-block;
-        position: relative;
-        transform: translate(-50%, 0%);
-        left: 50%;
-    
-    }
-    
-    h1:hover {
-        text-decoration: underline;
-    
-    }
 
 }
 
