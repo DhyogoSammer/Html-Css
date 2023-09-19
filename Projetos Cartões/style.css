@@ -20,8 +20,17 @@ body , html{
     width: 100vw;
 
 }
+
+#caixa {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
 #aviao {
     height: 50px;
+    width: 46px;
+    padding-left: 15px;
 }
 
 #aviao:hover {
@@ -55,15 +64,15 @@ body , html{
 
 #ipesquis {
     border-radius: 10px;
-    width: 400px;
+    width: 210px;
     display: block;
     margin: auto;
 }
 
 #enter {
     position: relative;
-    transform: translate(-45%, -100%);
-    left: 93%;
+    transform: translate(-45%, -115%);
+    left: 88%;
 
 }
 
