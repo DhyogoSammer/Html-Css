@@ -20,8 +20,56 @@ body , html{
     width: 100vw;
 
 }
+#aviao {
+    height: 50px;
+}
 
+#aviao:hover {
+    transform: translate(0%,-10%);
+    transition: 0.5s;
+}
 
+#home:hover {
+    background-color: rgb(85, 3, 139);
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+#contatos:hover {
+    background-color: rgb(85, 3, 139);
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+#blog:hover {
+    background-color: rgb(85, 3, 139) ;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+#trabalho:hover {
+    background-color: rgb(85, 3, 139);
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+#ipesquis {
+    border-radius: 10px;
+    width: 400px;
+    display: block;
+    margin: auto;
+}
+
+#enter {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 12%;
+    left: 93%;
+}
+
+#enter:hover {
+    cursor: pointer;
+}
 
 
 @media (min-width: 768px) { /* Para telas de Pcs e Tvs. */
