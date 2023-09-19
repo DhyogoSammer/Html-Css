@@ -30,25 +30,25 @@ body , html{
 }
 
 #home:hover {
-    background-color: rgb(85, 3, 139);
+    background-color: darkred;
     border-radius: 10px;
     transition: 0.5s;
 }
 
 #contatos:hover {
-    background-color: rgb(85, 3, 139);
+    background-color: darkred;
     border-radius: 10px;
     transition: 0.5s;
 }
 
 #blog:hover {
-    background-color: rgb(85, 3, 139) ;
+    background-color: darkred ;
     border-radius: 10px;
     transition: 0.5s;
 }
 
 #trabalho:hover {
-    background-color: rgb(85, 3, 139);
+    background-color: darkred;
     border-radius: 10px;
     transition: 0.5s;
 }
@@ -61,16 +61,61 @@ body , html{
 }
 
 #enter {
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 12%;
+    position: relative;
+    transform: translate(-45%, -100%);
     left: 93%;
+
 }
 
 #enter:hover {
     cursor: pointer;
 }
 
+#cartao {
+    width: 10rem;
+    height: 15rem;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    transform: translate(-50%-50%);
+    top: 20%;
+    left: 5%;
+}
+
+#cartao:hover {
+    transform: scale(1.1);
+}
+
+
+
+#tituloeua {
+    font-weight: bolder;
+    text-shadow: 1px 1px 0px rgba(255, 166, 0, 0.363);
+    cursor: pointer;
+    font-size: 0.9em;
+
+}
+
+#tituloeua:hover {
+    text-decoration: underline;
+}
+
+#textoeua {
+    font-size: 0.7em;
+    font-style: italic;
+}
+
+#botao {
+    height: 1.6rem;
+    width: 100px;
+    font-size: 0.8rem;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    margin: -5px;
+    align-items: center;
+    justify-content: center;
+}
 
 @media (min-width: 768px) { /* Para telas de Pcs e Tvs. */
     body , html{
